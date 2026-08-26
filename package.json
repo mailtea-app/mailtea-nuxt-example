@@ -1,0 +1,27 @@
+{
+  "name": "mailtea-nuxt-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Send email with Mailtea from a Nuxt server route.",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || ^24.11.0 || >=26.0.0"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "mailtea-sdk": "0.11.0",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.0",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "h3": "^1.15.11"
+  }
+}
