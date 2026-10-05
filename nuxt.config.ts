@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     mailteaApiKey: "",
     mailteaFrom: "",
-    // Only for local dev or a self-hosted Mailtea. Empty means api.mailtea.app.
+    // Optional override of the API host. Empty means https://api.mailtea.app.
     mailteaApiBaseUrl: ""
   }
 });

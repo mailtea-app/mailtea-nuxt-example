@@ -39,7 +39,7 @@ export default defineEventHandler(async (event) => {
   }
 
   const mailtea = new Mailtea(config.mailteaApiKey, {
-    // Only needed for local dev or a self-hosted Mailtea. Omit in production.
+    // Optional override of the API host. Unset, the SDK uses https://api.mailtea.app.
     baseUrl: config.mailteaApiBaseUrl || undefined
   });
 
